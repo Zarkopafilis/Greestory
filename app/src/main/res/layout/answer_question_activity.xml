@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sample question"
+        android:id="@+id/questionView"
+        android:textSize="18dp"
+        android:layout_marginTop="44dp"
+        android:textColor="#1919FF"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:background="@drawable/blue_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Answer1"
+        android:id="@+id/answer1Button"
+        android:layout_marginBottom="50dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:textColor="#ffffffff"
+        android:layout_above="@+id/answer2Button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:background="@drawable/blue_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Answer2"
+        android:id="@+id/answer2Button"
+        android:layout_marginBottom="50dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:textColor="#ffffff"
+        android:layout_above="@+id/answer3Button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:background="@drawable/blue_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Answer3"
+        android:id="@+id/answer3Button"
+        android:layout_marginBottom="50dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:textColor="#ffffffff"
+        android:layout_above="@+id/answer4Button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:background="@drawable/blue_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Answer4"
+        android:id="@+id/answer4Button"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentBottom="true"
+        style="?android:attr/borderlessButtonStyle"
+        android:textColor="#ffffffff"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/whois"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        style="?android:attr/borderlessButtonStyle"
+        android:textColor="#1919FF"
+        android:background="#00ffffff"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="X/50"
+        android:id="@+id/x50"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#1919FF" />
+
+</RelativeLayout>
